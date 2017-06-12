@@ -1,6 +1,7 @@
 import * as React from 'react'
 import './App.css'
 import BasicTextDemo from './demos/BasicTextDemo'
+import ChangeListDemo from './demos/ChangeListDemo'
 
 const logo = require('./logo.svg')
 
@@ -18,8 +19,10 @@ class App extends React.Component<{}, null> {
                 </p>
 
                 <hr />
-
                 <BasicTextDemo />
+
+                <hr />
+                <ChangeListDemo />
             </div>
         )
     }
