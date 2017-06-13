@@ -1,5 +1,5 @@
 ## React reconciliation demo
-React updates the DOM through it's use of the virtual DOM, when a new v-dom is created it is diffed to find out what has changed, then React patches the DOM with those changes.
+React updates the DOM through it's use of the virtual DOM, when a new v-dom is created it is diffed to find out what has changed, then React patches the DOM with those changes. The diffing process is known as [Reconciliation](https://react-cn.github.io/react/docs/reconciliation.html)
 
 A common scenario in many applications is the need to modify the DOM with A/B testing tools, advertising and other things. This demo is to be able to test how resilient React is to it's DOM being changed outside the v-dom.
 
